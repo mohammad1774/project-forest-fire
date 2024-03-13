@@ -10,7 +10,7 @@ import time
 app = Flask(__name__)
 
 # Load the pre-trained TensorFlow model
-model_path = 'D:\\project-forest\\MyDrive\\capstone-project\\training_log_custom\\trained_model\\hdf5_model\\trained_model_custom\\trained_model_custom.h5'
+model_path = 'C:\\Users\\Mohammad\\Documents\\GitHub\\project-forest-fire\\trained_model_custom_2.h5'
 
 model = load_model(model_path)
 
@@ -35,11 +35,5 @@ def predict():
         return jsonify({"error": str(e)})
 
 if __name__ == '__main__':
-    ngrok_api = subprocess.Popen(['D:\\project-forest\\ngrok','http','5000'])
-
-    time.sleep(5)
-    ngrok_api_url = requests.get('http://localhost:4040/api/tunnels').json()['tunnels'][0]['public_url']
-
-    print("Ngrok URL:", ngrok_api_url)
-
-    app.run()
+    
+    app.run(host='0.0.0.0',port=5000)
