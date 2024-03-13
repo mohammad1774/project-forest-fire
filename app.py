@@ -10,7 +10,7 @@ import time
 app = Flask(__name__)
 
 # Load the pre-trained TensorFlow model
-model_path = 'C:\\Users\\Mohammad\\Documents\\GitHub\\project-forest-fire\\trained_model_custom_2.h5'
+model_path = 'https://github.com/mohammad1774/project-forest-fire/blob/master/trained_model_custom_2.h5'
 
 model = load_model(model_path)
 
