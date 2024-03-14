@@ -1,0 +1,7 @@
+('C:\\Users\\Mohammad\\.conda\\envs\\timeseries\\share\\glew\\bin',
+ None,
+ [],
+ 'DATA',
+ [('glew32.dll',
+   'C:\\Users\\Mohammad\\.conda\\envs\\timeseries\\share\\glew\\bin\\glew32.dll',
+   'DATA')])
