@@ -35,13 +35,14 @@ def predict():
         return jsonify({"error": str(e)})
 
 if __name__ == '__main__':
-    ngrok_api = subprocess.Popen(['C:\\Users\\Mohammad\\Documents\\GitHub\\project-forest-fire\\python-files\\ngrok.exe','http','5000'])
+    ngrok_api = subprocess.Popen(['C:\\Users\\Mohammad\\Documents\\GitHub\\project-forest-fire\\ngrok.exe','http','5000'])
 
     time.sleep(5)
     ngrok_api_url = requests.get('http://localhost:4040/api/tunnels').json()['tunnels'][0]['public_url']
 
     print("Ngrok URL:", ngrok_api_url)
 
-    with open('url.txt','w') as file:
+    with open('C:\\Users\\Mohammad\\Documents\\GitHub\\project-forest-fire\\python-files\\url.txt','w') as file:
         file.writelines(ngrok_api_url)
+
     app.run()
