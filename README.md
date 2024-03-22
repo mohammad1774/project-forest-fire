@@ -4,10 +4,10 @@ This repository contains the code and resources for a fire detection system deve
 ## Objective
 The goal of this project is to create a fire detection system that accurately identifies fires, smoke, and non-fire scenarios from images. The system utilizes a Convolutional Neural Network (CNN) architecture implemented using the Keras framework.
 
-##Dataset
+## Dataset
 The dataset used for training and testing the model comprises approximately 30,000 images with 10,000 images for each category: fire, non-fire, and smoke. The dataset is available for download here.
 
-##Constraints
+## Constraints
 The project utilizes a deep learning neural network for classification.
 Computational resources and hardware limitations may affect model training.
 Preprocessing is required to handle high memory usage while loading the dataset.
