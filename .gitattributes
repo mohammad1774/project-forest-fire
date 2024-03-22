@@ -1,3 +1,4 @@
 trained_model_custom.h5 filter=lfs diff=lfs merge=lfs -text
 trained_model_custom_2.h5 filter=lfs diff=lfs merge=lfs -text
 *.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+*.tflite filter=lfs diff=lfs merge=lfs -text

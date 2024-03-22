@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
+from keras.models import load_model
+from keras.preprocessing import image
 import numpy as np
 import subprocess
 import requests
@@ -11,7 +11,6 @@ app = Flask(__name__)
 
 # Load the pre-trained TensorFlow model
 model_path = 'C:\\Users\\Mohammad\\Documents\\GitHub\\project-forest-fire\\MyDrive\\capstone-project\\training_log_custom\\trained_model\\hdf5_model\\trained_model_custom.h5'
-
 model = load_model(model_path)
 
 def preprocess_image(img_path):

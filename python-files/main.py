@@ -61,7 +61,7 @@ class ImagePredictionApp(App):
         img.save(img_bytes, format='JPEG')
 
         # Send a POST request to the API endpoint (replace with your API URL)
-        api_url = 'https://albacore-good-accurately.ngrok-free.app/predict'
+        api_url = ' https://albacore-good-accurately.ngrok-free.app/predict'
         files = {'image': img_bytes.getvalue()}
         response = requests.post(api_url, files=files)
 
