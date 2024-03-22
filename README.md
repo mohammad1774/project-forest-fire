@@ -60,8 +60,7 @@ The system is deployed using Flask for hosting the API and Ngrok for exposing th
 The capstone project successfully developed a fire detection system integrating a Keras model, Flask API, and Kivy frontend. Key achievements include model development, app development, API deployment, and component integration. Future directions include enhancing model performance, refining the user interface, optimizing deployment, and integrating with surveillance systems.
 
 ## Resources
-* [GitHub Repository]([https://github.com/mohammad1774/project-forest-fire])
-* [Dataset Download]([https://kh3-ls-storage.s3.us-east1.amazonaws.com/Updated%20Project%20guide%20data%20set/FOREST_FIRE_SMOKE_AN
-D_NON_FIRE_DATASET.zip])
+* [GitHub Repository](https://github.com/mohammad1774/project-forest-fire)
+* [Dataset Download](https://kh3-ls-storage.s3.us-east1.amazonaws.com/Updated%20Project%20guide%20data%20set/FOREST_FIRE_SMOKE_AND_NON_FIRE_DATASET.zip)
 
 For detailed instructions on setting up and running the system, please refer to the project documentation and code within the repository.
