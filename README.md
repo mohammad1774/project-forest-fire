@@ -1,7 +1,7 @@
 # Fire Detection System Readme
 This repository contains the code and resources for a fire detection system developed as a capstone project. The system aims to identify fires from images obtained from surveillance systems or other sources using deep learning techniques. Below is an overview of the project and instructions for setting up and using the system.
 
-##Objective
+## Objective
 The goal of this project is to create a fire detection system that accurately identifies fires, smoke, and non-fire scenarios from images. The system utilizes a Convolutional Neural Network (CNN) architecture implemented using the Keras framework.
 
 ##Dataset
